@@ -1,3 +1,9 @@
+'''
+- This File invokes uses Scrapy module to crawl the webpage - https://www.goodreads.com/search?q=authors
+- Extracts contents of the webpage and Generates a CSV file
+
+Author: Bala Vineeth Netha Thatipamula
+'''
 import scrapy
 from scrapy.http import FormRequest
 from unidecode import unidecode
